@@ -1,17 +1,17 @@
 modLoader = "javafml"
 loaderVersion = "[1,)"
 #issueTrackerURL = ""
-license = "GPL-3-ONLY"
+license = "GPL-3-ONLY, MIT"
 
 [[mods]]
 modId = "archvillagehealthcare"
 version = "${version}"
-displayName = "Village Healthcare (Architectury)"
+displayName = "Village HealthcareEx"
 authors = "BigDenseHedge, HyperPigeon"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+A port of the village healthcare mod to Architectury.
 '''
-#logoFile = ""
+logoFile = "icon.png"
 
 [[mixins]]
 config = "archvillagehealthcare.neoforge.mixins.json"

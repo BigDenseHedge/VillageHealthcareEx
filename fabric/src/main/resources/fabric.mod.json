@@ -2,18 +2,14 @@
   "schemaVersion": 1,
   "id": "archvillagehealthcare",
   "version": "${version}",
-  "name": "Village Healthcare (Architectury)",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Village HealthcareEx",
+  "description": "A port of the village healthcare mod to Architectury.",
   "authors": [
     "BigDenseHedge",
     "HyperPigeon"
   ],
-  "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
-  },
-  "license": "Insert License Here",
-  "icon": "assets/archvillagehealthcare/icon.png",
+  "license": "GPL-3-ONLY, MIT",
+  "icon": "icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [

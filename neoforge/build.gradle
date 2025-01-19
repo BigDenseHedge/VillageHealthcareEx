@@ -55,5 +55,5 @@ shadowJar {
 
 remapJar {
     inputFile.set(shadowJar.archiveFile)
-    atAccessWideners.add("examplemod.accesswidener")
+    atAccessWideners.add("archvillagehealthcare.accesswidener")
 }

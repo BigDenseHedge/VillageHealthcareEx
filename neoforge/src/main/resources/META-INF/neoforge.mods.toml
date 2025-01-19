@@ -1,0 +1,41 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+#issueTrackerURL = ""
+license = "GPL-3-ONLY"
+
+[[mods]]
+modId = "archvillagehealthcare"
+version = "${version}"
+displayName = "Village Healthcare (Architectury)"
+authors = "BigDenseHedge, HyperPigeon"
+description = '''
+This is an example description! Tell everyone what your mod is about!
+'''
+#logoFile = ""
+
+[[mixins]]
+config = "archvillagehealthcare.neoforge.mixins.json"
+
+[[mixins]]
+config = "archvillagehealthcare.common.mixins.json"
+
+[[dependencies.archvillagehealthcare]]
+modId = "neoforge"
+mandatory = true
+versionRange = "[21,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.archvillagehealthcare]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.21.4,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.archvillagehealthcare]]
+modId = "architectury"
+mandatory = true
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"

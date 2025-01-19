@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "io.github.bigdensehedge.archvillagehealthcare.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

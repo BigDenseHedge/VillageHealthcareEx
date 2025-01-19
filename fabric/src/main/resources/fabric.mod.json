@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "archvillagehealthcare",
+  "version": "${version}",
+  "name": "Village Healthcare (Architectury)",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "BigDenseHedge",
+    "HyperPigeon"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "Insert License Here",
+  "icon": "assets/archvillagehealthcare/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.bigdensehedge.archvillagehealthcare.fabric.ModFabric"
+    ]
+  },
+  "depends": {
+    "fabric": "*",
+    "minecraft": "=1.21.4",
+    "architectury": "*"
+  },
+  "mixins": [
+    "archvillagehealthcare.fabric.mixins.json",
+    "archvillagehealthcare.common.mixins.json"
+  ]
+}

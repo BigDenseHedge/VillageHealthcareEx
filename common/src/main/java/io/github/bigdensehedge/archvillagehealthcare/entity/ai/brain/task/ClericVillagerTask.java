@@ -101,7 +101,7 @@ public class ClericVillagerTask extends MultiTickTask<VillagerEntity> {
     }
 
     private Optional<LivingEntity> getNearestInjuredVillager(VillagerEntity villager) {
-        return ((LivingTargetCache)villager.getBrain().getOptionalRegisteredMemory(MemoryModuleType.VISIBLE_MOBS).orElse(LivingTargetCache.empty()))
+        return (villager.getBrain().getOptionalRegisteredMemory(MemoryModuleType.VISIBLE_MOBS).orElse(LivingTargetCache.empty()))
                 .findFirst(livingEntity -> livingEntity instanceof VillagerEntity && livingEntity.getHealth() < livingEntity.getMaxHealth()*0.7F);
     }
 

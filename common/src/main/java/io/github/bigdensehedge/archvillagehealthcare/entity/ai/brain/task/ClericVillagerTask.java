@@ -1,6 +1,7 @@
 package io.github.bigdensehedge.archvillagehealthcare.entity.ai.brain.task;
 
 import com.google.common.collect.ImmutableMap;
+import net.minecraft.command.argument.EntityAnchorArgumentType;
 import net.minecraft.component.type.PotionContentsComponent;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
@@ -61,7 +62,7 @@ public class ClericVillagerTask extends MultiTickTask<VillagerEntity> {
             villagerEntity.getBrain().remember(MemoryModuleType.LOOK_TARGET, new EntityLookTarget(target, true));
             villagerEntity.getBrain().remember(MemoryModuleType.WALK_TARGET, new WalkTarget(target, WALK_SPEED, 1));
 
-            // LookTargetUtil.lookAt(villagerEntity, target);
+            villagerEntity.lookAt(EntityAnchorArgumentType.EntityAnchor.EYES, target.getPos());
         }
     }
 

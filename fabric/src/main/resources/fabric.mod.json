@@ -18,8 +18,7 @@
   },
   "depends": {
     "fabric": "*",
-    "minecraft": "=1.21.4",
-    "architectury": "*"
+    "minecraft": "=1.21.4"
   },
   "mixins": [
     "archvillagehealthcare.fabric.mixins.json",

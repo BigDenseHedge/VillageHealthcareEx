@@ -32,10 +32,3 @@ mandatory = true
 versionRange = "[1.21.4]"
 ordering = "NONE"
 side = "BOTH"
-
-[[dependencies.archvillagehealthcare]]
-modId = "architectury"
-mandatory = true
-versionRange = "*"
-ordering = "AFTER"
-side = "BOTH"

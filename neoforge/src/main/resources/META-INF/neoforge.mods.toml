@@ -1,7 +1,7 @@
 modLoader = "javafml"
 loaderVersion = "[1,)"
 #issueTrackerURL = ""
-license = "GPL-3-ONLY, MIT"
+license = "GPL-3.0-ONLY, MIT"
 
 [[mods]]
 modId = "archvillagehealthcare"

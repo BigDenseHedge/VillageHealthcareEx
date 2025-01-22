@@ -8,7 +8,7 @@
     "BigDenseHedge",
     "HyperPigeon"
   ],
-  "license": "GPL-3-ONLY, MIT",
+  "license": "GPL-3.0-ONLY, MIT",
   "icon": "icon.png",
   "environment": "*",
   "entrypoints": {

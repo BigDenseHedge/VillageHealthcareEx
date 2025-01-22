@@ -29,7 +29,7 @@ side = "BOTH"
 [[dependencies.archvillagehealthcare]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.21.4,)"
+versionRange = "[1.21.4]"
 ordering = "NONE"
 side = "BOTH"
 
